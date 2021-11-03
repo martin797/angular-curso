@@ -1,0 +1,22 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-personajes > </app-personajes>
+       <!--<ul>
+           <li *ngFor="let guerrero of personajes; let i = index">
+               {{i+1}} - {{guerrero.nombre}} - {{guerrero.poder | number}}
+           </li>
+        </ul>-->
+        
+    </div>
+
+    <div class="col">
+        <app-agregar  
+            [nuevo]='nuevo'
+        ></app-agregar>
+        
+    </div>
+
+</div>
